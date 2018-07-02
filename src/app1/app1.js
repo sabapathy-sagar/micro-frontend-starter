@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import singleSpaReact from 'single-spa-react';
 import Root from './root.component.js';
 
+//Lifecycle methods called by the single-spa
+
 const reactLifecycles = singleSpaReact({
   React,
   ReactDOM,
@@ -33,3 +35,4 @@ function domElementGetter() {
 
   return el;
 }
+
